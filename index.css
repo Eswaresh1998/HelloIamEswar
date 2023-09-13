@@ -1,0 +1,155 @@
+body{
+    background-color: #0A192F ;
+    
+    
+}
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.logo{
+    height:200px;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: -15%;
+}
+.logo:hover{
+  
+    transform: scale(1.5);
+    transition: transform 1s ease-in-out;
+}
+.contact-icon{
+    height: 75%;
+    width: 60%;
+}
+#insta{
+    height: 70%;
+    width: 65%;
+}
+.ContactIcons{
+    width: 50%;
+}
+
+.ContactIcons ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.contact-icon{
+  
+    transition: box-shadow 0.3s ease-in-out;
+}
+.contact-icon:hover{
+   transform: scale(1.5);
+   box-shadow: 0px 4px 10px rgb(250, 249, 249);
+   animation: spin 1s ;
+   transition: transform 1s ease-in-out;
+}
+
+.Summary-container{
+  margin-top: 7%;
+  display: flex;
+  margin-left: 27%;
+  align-items: flex-start;
+ 
+  max-width: 50%;
+}
+.Intro{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size:24px;
+    color:  #59E2C5;
+}
+.Name{
+    font-size: clamp(30px, 8vw, 65px);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #CCD6F6;
+}
+.specialization{
+    font-size: clamp(30px, 8vw, 65px);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #8892B0;
+}
+.bio{
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    font-size:24px;
+    color: #3B4862;
+}
+.About_Me_section{
+    margin-top: 15%;
+    margin-left: 27%;
+    max-width: 50%;
+}
+.About_Me_Info{
+    display: flex;
+}
+.section2-heading{
+    color: #59E2C5;
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    font-size:35px;
+    width: 40%
+}
+.line {
+    width: 100%;
+    margin-top: 6%;
+    height: 1px; /* Adjust the height as needed */
+    background-color: #59E2C5; /* Line color (black in this example) */
+}
+.About_Me_content{
+    display: flex;
+    justify-content: space-around;
+}
+.eswar{
+    height: 320px;
+    width: 320px;
+}
+.about{
+    color: #8892B0;
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    font-size:22px;
+    
+    
+}
+.about-div{
+    width: 50%;
+}
+.skills{
+    display: flex;
+    color: #3B4862;
+    justify-content: space-around;
+    max-width: 50%;
+}
+.skills ul{
+    list-style-type: disc;
+
+}
+.skills li::marker{
+    color: #59E2C5 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg); /* Rotate the icon 360 degrees */
+    }
+  }
